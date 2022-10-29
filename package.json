@@ -5,6 +5,15 @@
   "keywords": [],
   "author": "wst426 <wangst0426@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.1.0",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "rollup": "^3.2.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
   }
 }
